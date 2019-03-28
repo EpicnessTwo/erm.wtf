@@ -30,29 +30,11 @@
                 position: relative;
             }
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
         </style>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-
-            <div class="content">
-                <div class="title m-b-md">
-                    <img src="http://media0.giphy.com/gifsu/XpicQZ05Em67URdzAk/giphy-enhance-0.gif" alt="ENHANCE">
-                </div>
-            </div>
+            <img src="http://media0.giphy.com/gifsu/XpicQZ05Em67URdzAk/giphy-enhance-0.gif" alt="ENHANCE">
         </div>
     </body>
 </html>
