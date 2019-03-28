@@ -16,9 +16,15 @@
                 margin: 0;
             }
 
+            @keyframes lol {
+                0% {filter: hue-rotate(0deg)}
+                100% {filter: hue-rotate(360deg)}
+            }
+
             .full {
                 height: 100vh;
                 width: 100vw;
+                animation: lol 5s infinite;
             }
 
             .flex-center {
