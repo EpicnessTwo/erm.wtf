@@ -16,8 +16,9 @@
                 margin: 0;
             }
 
-            .full-height {
+            .full {
                 height: 100vh;
+                width: 100vw;
             }
 
             .flex-center {
@@ -33,8 +34,8 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            <img src="http://media0.giphy.com/gifsu/XpicQZ05Em67URdzAk/giphy-enhance-0.gif" alt="ENHANCE">
+        <div class="flex-center position-ref">
+            <img class="full" src="http://media0.giphy.com/gifsu/XpicQZ05Em67URdzAk/giphy-enhance-0.gif" alt="ENHANCE">
         </div>
     </body>
 </html>
